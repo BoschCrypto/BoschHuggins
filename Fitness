@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitLife Hub - Fitness</title>
+</head>
+<body>
+
+<h1>Fitness Tips</h1>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="fitness.html">Fitness</a> |
+    <a href="nutrition.html">Nutrition</a>
+</nav>
+
+<section>
+    <h2>Cardio Training</h2>
+    <p>Try brisk walking, jogging, cycling, or dancing 15-20 minutes, 3 times per week.</p>
+</section>
+
+<section>
+    <h2>Strength Training</h2>
+    <p>Push-ups, squats, lunges, and planks. Do 3 sets of each exercise.</p>
+</section>
+
+<section>
+    <h2>Flexibility & Recovery</h2>
+    <p>Stretch daily for 10-15 minutes to improve mobility and prevent injuries.</p>
+</section>
+
+<section>
+    <h2>Featured Workout Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7GkMHPe_OXw" title="Workout Video" allowfullscreen></iframe>
+</section>
+
+</body>
+</html>
