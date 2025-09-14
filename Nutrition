@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitLife Hub - Nutrition</title>
+</head>
+<body>
+
+<h1>Nutrition Tips</h1>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="fitness.html">Fitness</a> |
+    <a href="nutrition.html">Nutrition</a>
+</nav>
+
+<section>
+    <h2>Balanced Meals</h2>
+    <ul>
+        <li>Protein: Chicken, beans, eggs, tofu</li>
+        <li>Complex Carbs: Brown rice, quinoa, oats</li>
+        <li>Vegetables: Leafy greens, broccoli, carrots</li>
+        <li>Healthy Fats: Avocado, nuts, olive oil</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Meal Prep Tips</h2>
+    <ul>
+        <li>Cook grains in bulk</li>
+        <li>Prep proteins ahead</li>
+        <li>Wash and chop vegetables</li>
+        <li>Portion snacks</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Downloadable Meal Plan</h2>
+    <p>Get a weekly meal plan with grocery lists and recipes.</p>
+    <a href="#" onclick="alert('Meal plan download feature coming soon!')">Download Meal Plan PDF</a>
+</section>
+
+</body>
+</html>
