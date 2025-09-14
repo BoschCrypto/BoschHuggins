@@ -1,166 +1,35 @@
-import { Card } from './ui/card';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitLife Hub - Home</title>
+</head>
+<body>
 
-export function About() {
-  return (
-    <div className="min-h-screen py-8">
-      <div className="max-w-6xl mx-auto px-4">
-        <header className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl mb-4">About FitLife Hub</h1>
-          <p className="text-lg max-w-3xl mx-auto">
-            Learn about our mission to make fitness and nutrition accessible, affordable, 
-            and realistic for students and young adults everywhere.
-          </p>
-        </header>
+<h1>FitLife Hub</h1>
 
-        {/* Mission Section */}
-        <section className="mb-16">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <h2 className="text-3xl mb-6">Our Mission</h2>
-              <p className="mb-4">
-                At FitLife Hub, we believe that every student deserves access to reliable, 
-                practical health and wellness resources. Our mission is to bridge the gap 
-                between complex nutrition science and the real-world needs of busy students.
-              </p>
-              <p className="mb-4">
-                We're passionate about making fitness and nutrition accessible, affordable, 
-                and realistic for people with packed schedules, tight budgets, and limited 
-                cooking facilities. Whether you're living in a dorm, sharing an apartment, 
-                or just starting your wellness journey, we're here to help.
-              </p>
-              <p>
-                Our approach focuses on small, sustainable changes that can fit into any 
-                lifestyle. We believe that healthy living shouldn't add stress to your life—
-                it should enhance it.
-              </p>
-            </div>
-            <div>
-              <ImageWithFallback
-                src="https://images.unsplash.com/photo-1680686096607-368be87896ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50cyUyMGV4ZXJjaXNlJTIwdG9nZXRoZXIlMjBjb21tdW5pdHl8ZW58MXx8fHwxNzU3MjYzOTE4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Students working out together"
-                className="w-full h-80 object-cover rounded-lg"
-              />
-            </div>
-          </div>
-        </section>
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="fitness.html">Fitness</a> |
+    <a href="nutrition.html">Nutrition</a>
+</nav>
 
-        {/* Vision Section */}
-        <section className="mb-16 bg-muted rounded-lg p-8">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl mb-4">Our Vision</h2>
-            <p className="text-lg max-w-4xl mx-auto">
-              We envision a world where every student has the knowledge, tools, and confidence 
-              to build healthy habits that last a lifetime. We're working toward a future where 
-              wellness is not a luxury, but an accessible part of everyday student life.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card className="p-6 text-center">
-              <div className="text-3xl mb-4">🎯</div>
-              <h3 className="text-xl mb-3">Accessibility</h3>
-              <p>Making health and wellness resources available to students regardless of their budget or living situation.</p>
-            </Card>
-            <Card className="p-6 text-center">
-              <div className="text-3xl mb-4">🌱</div>
-              <h3 className="text-xl mb-3">Sustainability</h3>
-              <p>Promoting habits that students can maintain long-term, focusing on gradual lifestyle changes.</p>
-            </Card>
-            <Card className="p-6 text-center">
-              <div className="text-3xl mb-4">🤝</div>
-              <h3 className="text-xl mb-3">Community</h3>
-              <p>Building a supportive environment where students can learn from each other and grow together.</p>
-            </Card>
-          </div>
-        </section>
+<section style="text-align:center; padding:50px;">
+    <h2>Welcome to FitLife Hub</h2>
+    <p>Your ultimate resource for building a healthier lifestyle through balanced nutrition and beginner-friendly workouts.</p>
+</section>
 
-        {/* About the Creators */}
-        <section className="mb-16">
-          <h2 className="text-3xl mb-8 text-center">About the Creators</h2>
-          <div className="max-w-4xl mx-auto">
-            <Card className="p-8">
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-2xl mb-4">Channen Huggins & Waldo Bosch</h3>
-                  <p className="mb-4">
-                    We are students at Columbia College pursuing our studies in Computer Information Systems. 
-                    Like many students, we've experienced firsthand the challenges of maintaining a healthy 
-                    lifestyle while balancing academics, work, and social commitments.
-                  </p>
-                  <p className="mb-4">
-                    Our journey into health and wellness began during our own college experience, when we 
-                    realized how difficult it could be to find reliable, practical health information designed 
-                    specifically for student life. Most resources seemed to assume unlimited time, money, and 
-                    kitchen access—things that don't always align with student reality.
-                  </p>
-                  <p>
-                    This project represents our commitment to creating the resource we wish we'd had when we 
-                    first started our wellness journey. We're passionate about using technology to make health 
-                    and wellness more accessible to our peers.
-                  </p>
-                </div>
-                <div className="bg-accent rounded-lg p-6">
-                  <h4 className="text-xl mb-4">Our Wellness Philosophy</h4>
-                  <ul className="space-y-2">
-                    <li>• <strong>Progress over perfection:</strong> Small steps lead to big changes</li>
-                    <li>• <strong>Real-world solutions:</strong> Practical advice for busy lives</li>
-                    <li>• <strong>Budget-conscious:</strong> Health shouldn't break the bank</li>
-                    <li>• <strong>Science-based:</strong> Evidence-backed recommendations</li>
-                    <li>• <strong>Inclusive approach:</strong> Wellness that works for everyone</li>
-                  </ul>
-                </div>
-              </div>
-            </Card>
-          </div>
-        </section>
+<section>
+    <h3>Start Your Fitness Journey</h3>
+    <p>Discover beginner-friendly workouts, exercise tips, and routines.</p>
+    <a href="fitness.html">Go to Fitness Page</a>
+</section>
 
-        {/* Why FitLife Hub? */}
-        <section className="mb-16">
-          <h2 className="text-3xl mb-8 text-center">Why FitLife Hub?</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card className="p-6 text-center">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-lg mb-2">Student-Focused</h3>
-              <p className="text-sm">Designed specifically for the unique challenges and constraints of student life.</p>
-            </Card>
-            <Card className="p-6 text-center">
-              <div className="text-2xl mb-3">💰</div>
-              <h3 className="text-lg mb-2">Budget-Friendly</h3>
-              <p className="text-sm">All our recommendations work within typical student budget constraints.</p>
-            </Card>
-            <Card className="p-6 text-center">
-              <div className="text-2xl mb-3">⚡</div>
-              <h3 className="text-lg mb-3">Time-Efficient</h3>
-              <p className="text-sm">Quick workouts and meal ideas that fit into packed schedules.</p>
-            </Card>
-            <Card className="p-6 text-center">
-              <div className="text-2xl mb-3">🔬</div>
-              <h3 className="text-lg mb-2">Evidence-Based</h3>
-              <p className="text-sm">All advice is grounded in current nutrition and exercise science.</p>
-            </Card>
-          </div>
-        </section>
+<section>
+    <h3>Learn About Nutrition</h3>
+    <p>Explore balanced eating, meal prep tips, and budget-friendly nutrition strategies.</p>
+    <a href="nutrition.html">Go to Nutrition Page</a>
+</section>
 
-        {/* Course Information */}
-        <section className="bg-primary text-primary-foreground rounded-lg p-8 text-center">
-          <h2 className="text-3xl mb-4">Academic Project</h2>
-          <p className="text-lg mb-4">
-            This website was created as part of our coursework for CIS 230: Intro to Web Development 
-            at Columbia College, showcasing our skills in web design, user experience, and content creation.
-          </p>
-          <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
-            <div className="bg-primary-foreground/10 rounded-lg p-4">
-              <h3 className="mb-2">Course</h3>
-              <p>CIS 230: Intro to Web Development</p>
-            </div>
-            <div className="bg-primary-foreground/10 rounded-lg p-4">
-              <h3 className="mb-2">Institution</h3>
-              <p>Columbia College</p>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-  );
-}
+</body>
+</html>
